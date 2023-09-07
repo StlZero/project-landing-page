@@ -21,9 +21,11 @@ header {
 }
 
 .nav-container div, .nav-container nav {
-    margin-left: 50px;
-    margin-right: 50px;
-    /* Might wanna consider using padding instead of margin */
+    /* margin-left: 50px;
+    margin-right: 50px; */
+
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .nav-links li {
@@ -74,6 +76,24 @@ header {
 /* --- */
 /* Body */
 
-.body-one {
+body {
     background-color: white;
+}
+
+body h1 {
+    padding: 50px;
+    text-align: center;
+}
+
+.body-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 5px #3882F6 solid;
+    border-radius: 25px;
 }
