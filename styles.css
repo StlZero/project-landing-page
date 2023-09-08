@@ -85,10 +85,8 @@ body h1 {
     text-align: center;
 }
 
-.body-container {
-    display: flex;
-    justify-content: space-around;
-}
+/* .body-container {
+} */
 
 .box {
     width: 200px;
@@ -96,4 +94,24 @@ body h1 {
     background-color: white;
     border: 5px #3882F6 solid;
     border-radius: 25px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: black;
+}
+
+.subtext-box {
+    width: 200px;
+    height: 200px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subtext-container {
+    display: flex;
+    justify-content: space-around;
 }
