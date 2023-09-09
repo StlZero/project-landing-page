@@ -45,6 +45,10 @@ header {
     display: flex;
     /* margin: 55px; */
     padding: 110px;
+    width: 60%;
+    height: 150px;
+    margin: auto;
+    gap: 10px;
 }
 
 .header-child1 {
@@ -53,12 +57,21 @@ header {
 
 .header-child2 {
     flex: 1;
-    background-color: #E5E7EB;
+    background-color: rgba(211, 211, 211, 0.534);
     display: flex;
     justify-content: center;
     align-items: center;
-
+    color: white;
     
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 25px;
+    font-size: 14px;
+    margin: 5px 0px;
 }
 
 .header-child1 h1 {
@@ -105,6 +118,7 @@ body {
     width: 200px;
     height: 150px;
     border: 5px white solid;
+    text-align: center;
     
 }
 
@@ -155,21 +169,44 @@ footer {
     width: 65%;
     margin: 100px auto;
     background-color: #3882F6;
+    border-radius: 10px;
 
     display: flex;
 }
 
 .sign-up-sign {
-    padding: 50px;
+    padding: 50px 100px;
     color: white;
-    width: 75%;
+    width: 65%;
     font-size: 20px;
+    align-self: center;
 
 }
 
 .sign-container {
     align-self: center;
-    width: 25%;   
+    width: 35%;   
     text-align: center;
-    padding: 50px;
+    padding: 0 100px;
+
+}
+
+.sign-button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 15px 75px;
+    font-size: 16px;
+}
+
+/* (BREAK) */
+
+.info-footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
 }
